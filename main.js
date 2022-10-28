@@ -36,20 +36,7 @@ document.onkeydown = function (e) {
     case 81:
         document.getElementById('attacks').innerHTML=attacks;
     case 16:
-        if (document.getElementById('mainmenu')) {
-        document.getElementById('mainmenu').remove();
-        } else {
-            var sidemenu;
-            var bdy;
-            mainmenu = document.createElement('div');
-            mainmenu.id = 'mainmenu';
-            mainmenu.innerHTML = `
-            `;
-            
-            bdy = document.getElementsByTagName('body')[0];
-            bdy.appendChild(mainmenu);
-            mainmenu.setAttribute('style', 'height:90%; width:90%; background-color:rgba(0,0,0,.5); color:white; font-family:Courier New; font-size:12px; z-index:10000; display: inline-block; overflow:visible; position:fixed; top: 5%;');
-        }
+        alert("rshift")
       
     default:
         document.getElementById('key').innerHTML=e.code;
