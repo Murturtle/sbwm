@@ -1,2 +1,3 @@
 # sbwm
-starbreak web mod
+still in beta
+kinda useless
