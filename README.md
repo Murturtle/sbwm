@@ -1,6 +1,6 @@
 # sbwm
 Features:
--Leader Board
--Last Pressed Key
+- Leader Board
+- Last Pressed Key
 Adding soon:
--Quick item switch
+- Quick item switch
