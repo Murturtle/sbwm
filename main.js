@@ -26,7 +26,7 @@ if (document.getElementById('sidemenu')) {
     
     bdy = document.getElementsByTagName('body')[0];
     bdy.appendChild(sidemenu);
-    mymenu.setAttribute('style', 'height:25%; width:80px; background-color:rgba(0,0,0,.5); color:white; font-family:Courier New; font-size:12px; z-index:10000; display: inline-block; overflow:visible; position:fixed; top: 25%;');
+    sidemenu.setAttribute('style', 'height:25%; width:80px; background-color:rgba(0,0,0,.5); color:white; font-family:Courier New; font-size:12px; z-index:10000; display: inline-block; overflow:visible; position:fixed; top: 25%;');
 }
 
 var attacks=0;
