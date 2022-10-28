@@ -29,8 +29,6 @@ if (document.getElementById('sidemenu')) {
     sidemenu.setAttribute('style', 'height:25%; width:80px; background-color:rgba(0,0,0,.5); color:white; font-family:Courier New; font-size:12px; z-index:10000; display: inline-block; overflow:visible; position:fixed; top: 25%;');
 }
 
-var gui=true;
-
 document.onkeydown = function (e) {
     switch (e.keyCode) {
     case 81:
