@@ -1,3 +1,6 @@
 # sbwm
-still in beta
-kinda useless
+Features:
+-Leader Board
+-Last Pressed Key
+Adding soon:
+-Quick item switch
