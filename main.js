@@ -34,7 +34,7 @@ var gui=true;
 document.onkeydown = function (e) {
     switch (e.keyCode) {
     case 81:
-        
+        alert('work in progress')
     case 16
         if (gui) {
           sidemenu.setAttribute('style', 'display:hidden;');
