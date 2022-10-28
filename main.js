@@ -2,7 +2,7 @@ if (document.getElementById('sidemenu')) {
     document.getElementById('sidemenu').remove();
 } else {
     var sidemenu;
-    var body;
+    var bdy;
     sidemenu = document.createElement('div');
     sidemenu.id = 'sidemenu';
     sidemenu.innerHTML = `
@@ -24,8 +24,8 @@ if (document.getElementById('sidemenu')) {
     </style>
     `;
     
-    body = document.getElementsByTagName('body')[0];
-    body.appendChild(sidemenu);
+    bdy = document.getElementsByTagName('body')[0];
+    bdy.appendChild(sidemenu);
     mymenu.setAttribute('style', 'height:25%; width:80px; background-color:rgba(0,0,0,.5); color:white; font-family:Courier New; font-size:12px; z-index:10000; display: inline-block; overflow:visible; position:fixed; top: 25%;');
 }
 
@@ -40,14 +40,14 @@ document.onkeydown = function (e) {
         document.getElementById('mainmenu').remove();
         } else {
             var sidemenu;
-            var body;
+            var bdy;
             mainmenu = document.createElement('div');
             mainmenu.id = 'mainmenu';
             mainmenu.innerHTML = `
             `;
             
-            body = document.getElementsByTagName('body')[0];
-            body.appendChild(mainmenu);
+            bdy = document.getElementsByTagName('body')[0];
+            bdy.appendChild(mainmenu);
             mainmenu.setAttribute('style', 'height:90%; width:90%; background-color:rgba(0,0,0,.5); color:white; font-family:Courier New; font-size:12px; z-index:10000; display: inline-block; overflow:visible; position:fixed; top: 5%;');
         }
       
