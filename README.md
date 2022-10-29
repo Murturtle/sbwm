@@ -1,8 +1,8 @@
 # sbwm
 Features:
-- Leader Board
-- Last Pressed Key
-- Freeze
+- Leader Board (GUI-BUTTON)
+- Last Pressed Key (GUI)
+- Freeze (Q)
 
 What im trying to add:
-- Quick switch
+- Quick switch (E)
