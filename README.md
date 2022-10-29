@@ -2,5 +2,6 @@
 Features:
 - Leader Board
 - Last Pressed Key
-Adding soon:
-- Quick item switch
+- Freeze
+What im trying to add:
+- Quick switch
