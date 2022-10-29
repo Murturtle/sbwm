@@ -49,6 +49,6 @@ document.onkeydown = function (e) {
     };
   }
   else if(e.code=="KeyQ"){
-    alert("Press Q to unfreeze")
+    alert("Press ENTER to unfreeze")
   }
 };
